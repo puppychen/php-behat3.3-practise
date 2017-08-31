@@ -1,0 +1,8 @@
+# behat.yml
+default:
+  extensions:
+    Behat\MinkExtension:
+      base_url:  'https://www.wikipedia.org'
+      sessions:
+        default:
+          goutte: ~
